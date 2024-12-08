@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/styles.css')
+  body
+    // Pasek nawigacyjny
+    header.navbar
+      .container
+        img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+        ul.nav-links
+          li: a(href='/') Strona Główna
+          li: a(href='/teams') Drużyny
+          li: a(href='/players') Zawodnicy
+          li: a(href='/standings') Tabela
+          li: a(href='/matches') Mecze
+          li: a(href='/gallery') Galeria
+
+    // Sekcja z tłem
+    section.hero
+      .hero-content
+        h1  Ekstraklasa
+        p Najwyższa klasa rozgrywkowa piłki nożnej w Polsce, zrzeszająca najlepsze drużyny rywalizujące o tytuł mistrza Polski.
+        a(href='#ekstraklasa-info' class='btn-more') Dowiedz się więcej
+
+    // Sekcja z informacjami o Ekstraklasie
+    section#ekstraklasa-info.ekstraklasa-info
+      .container
+        div.info-left
+          img(src='/images/logo.png', alt='Logo Ekstraklasy')
+        div.info-right
+          h2 Czym jest Ekstraklasa?
+          p Ekstraklasa to liga, w której występują najlepsze drużyny piłkarskie w Polsce, rywalizujące o tytuł mistrza kraju. Zawody odbywają się w systemie ligowym, a mecze przyciągają miliony fanów piłki nożnej.
+
+    // Nowa sekcja z tłem 3.jpg (z odwróconym układem)
+    section#ekstraklasa-info-2
+      .container
+        div.info-right
+          h2 Co zawiera strona 
+          p Terminarz: Harmonogram nadchodzących meczów z podziałem na kolejki. Informacje o datach, godzinach spotkań. Tabela ligowa: Aktualna tabela Ekstraklasy: Pozycje drużyn. Liczba punktów. Mecze wygrane, zremisowane i przegrane. Bilans bramek . Statystyki zawodników: Strzelcy: Lista najlepszych strzelców sezonu z podziałem na liczbę zdobytych bramek. Kartki: Zawodnicy z największą liczbą żółtych i czerwonych kartek. Galeria zdjęć: Kolekcja fotografii z meczów Ekstraklasy: Najlepsze momenty z boiska. Kibice i ich oprawy. Zdjęcia stadionów i drużyn. Możliwość filtrowania zdjęć po drużynach, stadionach
+        div.info-left
+          img(src='/images/3.jpg', alt='Ekstraklasa w akcji')
+
+    // Sekcja z regulaminem
+    section#regulamin
+      .container
+        h2 Regulamin Ekstraklasy
+        p Regulamin Ekstraklasy jest dostępny do pobrania w formacie PDF.
+        a(href='/download-regulamin' class='btn-download') Pobierz Regulamin PDF
+
+    // Stopka
+    footer
+      .container
+        p Twórca strony: Wiktor Majchrzak

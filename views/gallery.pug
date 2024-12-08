@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/gallery.css')   
+  body
+    // Pasek nawigacyjny
+    header.navbar
+      .container
+        img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+        ul.nav-links
+          li: a(href='/') Strona Główna
+          li: a(href='/teams') Drużyny
+          li: a(href='/players') Zawodnicy
+          li: a(href='/standings') Tabela
+          li: a(href='/matches') Mecze
+          li: a(href='/gallery') Galeria
+
+    h1= title
+    .gallery
+      each image in images
+        .image
+          img(src=`/images/gallery/${image.name}`, alt=image.name)
+          p= image.name
+    a(href='/') Powrót do strony głównej
+    a(href='/gallery/json') Zobacz dane w formacie JSON
+
+    // Jeśli jest kategoria
+    if category
+      h3 Kategoria: #{category}
+      a(href='/gallery') Wszystkie obrazy

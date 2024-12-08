@@ -1,0 +1,51 @@
+doctype html
+html(lang="pl")
+  head
+    title= title
+    link(rel="stylesheet", href="/css/styles3.css")
+  body
+    header.navbar
+      img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+      ul.nav-links
+        li: a(href='/') Strona Główna
+        li: a(href='/teams') Drużyny
+        li: a(href='/players') Zawodnicy
+        li: a(href='/standings') Tabela
+        li: a(href='/matches') Mecze
+        li: a(href='/gallery') Galeria
+
+    section.container
+      h1 Zawodnicy Ekstraklasy
+      form
+        select#stats-filter(name="filter" onchange="window.location.href='/players?filter=' + this.value")
+          option(value="scorers" selected=filter === 'scorers') Najlepsi strzelcy
+          option(value="cards" selected=filter === 'cards') Najwięcej kartek
+
+      table
+        thead
+          tr
+            th#rank Rk
+            th Zawodnik
+            th Drużyna
+            if filter === 'scorers'
+              th G
+              th A
+              th KK // Punktacja Kanadyjska
+            else if filter === 'cards'
+              th Żółtych kartek
+              th Czerwonych kartek
+            th Razem kartek
+        tbody
+          each player in players
+            tr
+              td= player.rank
+              td= player.name
+              td= player.team
+              if filter === 'scorers'
+                td= player.goals
+                td= player.assists
+                td= player.kk
+              else if filter === 'cards'
+                td= player.yellow_cards
+                td= player.red_cards
+              td= player.yellow_cards + player.red_cards

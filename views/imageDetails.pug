@@ -1,0 +1,10 @@
+// views/imageDetails.pug
+doctype html
+html
+  head
+    title= title
+  body
+    h1= title
+    img(src=`/images/gallery/${image.name}`, alt=image.name)
+    p= image.description
+    a(href='/gallery') Powrót do galerii

@@ -1,0 +1,60 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/css/styles1.css")
+  body
+    // Pasek nawigacyjny
+    header.navbar
+      .container
+        img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+        ul.nav-links
+          li: a(href='/') Strona Główna
+          li: a(href='/teams') Drużyny
+          li: a(href='/players') Zawodnicy
+          li: a(href='/standings') Tabela
+          li: a(href='/matches') Mecze
+          li: a(href='/gallery') Galeria
+
+    
+    H1 
+    // Tabela Ekstraklasy
+    table
+      thead
+        tr
+          th Nazwa
+          th Mecze
+          th Punkty
+          th Zwycięstwa
+          th Remisy
+          th Porażki
+          th Bramki
+          th Z (Dom)
+          th R (Dom)
+          th P (Dom)
+          th Bramki (Dom)
+          th Z (Wyjazd)
+          th R (Wyjazd)
+          th P (Wyjazd)
+          th Bramki (Wyjazd)
+      tbody
+        each team, index in teams
+          tr(class= index == 0 ? 'leader' 
+             : index == 1 || index == 2 ? 'runner-up' 
+             : index >= teams.length - 3 ? 'relegation' 
+             : 'default')
+            td= team.name
+            td= team.matches
+            td= team.points
+            td= team.won
+            td= team.draw
+            td= team.lost
+            td= team.goals
+            td= team.home.won
+            td= team.home.draw
+            td= team.home.lost
+            td= team.home.goals
+            td= team.away.won
+            td= team.away.draw
+            td= team.away.lost
+            td= team.away.goals

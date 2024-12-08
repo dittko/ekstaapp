@@ -1,0 +1,173 @@
+/* Ustawienia ogólne */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden; /* Zapobiega przewijaniu w poziomie */
+}
+
+/* Pasek nawigacyjny */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Rozciąga logo i linki */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-sizing: border-box; /* Uwzględnia padding w szerokości */
+}
+
+/* Kontener w nawigacji */
+.navbar .container {
+  display: flex;
+  justify-content: space-between; /* Rozstawienie logo i linków */
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Maksymalna szerokość */
+  margin: 0 auto;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #0066cc;
+  transform: scale(1.05);
+}
+
+/* Media queries dla małych ekranów */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 15px; /* Mniejsze paddingi */
+  }
+
+  .logo {
+    height: 30px; /* Mniejsze logo na małych ekranach */
+  }
+
+  .nav-links {
+    gap: 15px; /* Mniejszy odstęp między linkami */
+  }
+
+  .nav-links a {
+    font-size: 0.9rem; /* Mniejsza czcionka na małych ekranach */
+  }
+
+  .navbar .container {
+    flex-direction: column; /* Ustawienie elementów pionowo */
+    align-items: center; /* Wyrównanie do środka */
+  }
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #003366;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+td {
+  background-color: #ffffff;
+  color: #333;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #e8f0fe;
+}
+
+table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries dla jeszcze mniejszych ekranów (np. telefony) */
+@media (max-width: 480px) {
+  .nav-links {
+    gap: 10px; /* Jeszcze mniejszy odstęp między linkami */
+  }
+
+  .nav-links a {
+    font-size: 0.8rem; /* Jeszcze mniejsza czcionka na bardzo małych ekranach */
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Sekcja z informacjami o Ekstraklasie */
+section.ekstraklasa-info {
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 40px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1.5vw;
+  line-height: 1.5em;
+}
+
+/* Pokaż informacje o Ekstraklasie, gdy użytkownik przewinie stronę */
+.ekstraklasa-info.visible {
+  opacity: 1;
+}

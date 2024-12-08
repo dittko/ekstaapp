@@ -1,0 +1,54 @@
+doctype html
+html(lang="pl")
+  head
+    title= title
+    link(rel="stylesheet", href="/css/styles2.css")
+  body
+    // Pasek nawigacyjny
+    header.navbar
+      .container
+        img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+        nav
+          ul.nav-links
+            li: a(href='/') Strona Główna
+            li: a(href='/teams') Drużyny
+            li: a(href='/players') Zawodnicy
+            li: a(href='/standings') Tabela
+            li: a(href='/matches') Mecze
+            li: a(href='/gallery') Galeria
+
+    // Nagłówek strony
+    h1 Ekstraklasa - Terminarz meczów
+
+    .container
+      // Przycisk przełączający stronę na wyświetlanie danych JSON
+      button(id="json-view-btn") Zobacz dane w formacie JSON
+
+    // Renderowanie danych HTML
+    .container
+      each round in matches
+        .round-card
+          h2= round.round
+          p= round.date
+          .games
+            each game in round.games
+              .game-card
+                h3= game.match
+                p= game.date
+                button(class="details-btn") Zobacz szczegóły
+                .details
+                  p= game.details
+                  if game.scorers
+                    ul
+                      each scorer in game.scorers
+                        li= scorer
+
+    script.
+      document.getElementById('json-view-btn').addEventListener('click', function() {
+        fetch('/matches/json')
+          .then(response => response.json())
+          .then(data => {
+            document.body.innerHTML = JSON.stringify(data, null, 2);  // Wyświetlenie JSON na stronie
+          })
+          .catch(error => console.error('Błąd:', error));
+      });

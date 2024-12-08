@@ -1,0 +1,193 @@
+/* Ustawienia ogólne */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden; /* Zapobiega przewijaniu w poziomie */
+}
+
+/* Pasek nawigacyjny */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #0066cc;
+  transform: scale(1.05);
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 15px; /* Mniejsze paddingi na mniejszych ekranach */
+  }
+
+  .logo {
+    height: 30px; /* Mniejsze logo na mniejszych ekranach */
+  }
+
+  .nav-links {
+    gap: 15px; /* Mniejszy odstęp między linkami */
+  }
+
+  .nav-links a {
+    font-size: 0.9rem; /* Mniejsza czcionka na mniejszych ekranach */
+  }
+}
+
+/* Nagłówki i tła */
+header {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 80px; /* Dodanie odstępu, aby pasek nawigacyjny nie zasłaniał nagłówka */
+}
+
+/* Zawartość strony */
+.container {
+  margin: 20px;
+}
+
+.round-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+.games {
+  margin-top: 10px;
+}
+
+.game-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.details {
+  display: none;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.details-btn:hover {
+  background-color: #0056b3;
+}
+
+.game-card:hover {
+  background-color: #e6e6e6;
+}
+
+.details-btn:focus + .details {
+  display: block;
+}
+
+/* Sekcja z informacjami o Ekstraklasie */
+section.ekstraklasa-info {
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 40px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+h2 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1.5vw;
+  line-height: 1.5em;
+}
+
+/* Styl dla większych ekranów */
+@media (min-width: 1024px) {
+  .nav-links a {
+    font-size: 1.2em;
+  }
+  h2 {
+    font-size: 1.75em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+}
+
+/* Pokaż informacje o Ekstraklasie, gdy użytkownik przewinie stronę */
+.ekstraklasa-info.visible {
+  opacity: 1;
+}

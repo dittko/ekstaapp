@@ -1,0 +1,76 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/teams.css")
+  body
+    // Pasek nawigacyjny
+    header.navbar
+      .container
+        img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
+        ul.nav-links
+          li: a(href='/') Strona Główna
+          li: a(href='/teams') Drużyny
+          li: a(href='/players') Zawodnicy
+          li: a(href='/standings') Tabela
+          li: a(href='/matches') Mecze
+          li: a(href='/gallery') Galeria
+
+    h1 Ekstraklasa - Porównanie drużyn
+
+    // Formularz GET
+    h2 Porównanie drużyn (GET)
+    form(action="/teams/compare/get" method="get")
+      label(for="team1") Wybierz pierwszą drużynę:
+      select(name="team1")
+        each team in teams
+          option(value=team)= team
+
+      label(for="team2") Wybierz drugą drużynę:
+      select(name="team2")
+        each team in teams
+          option(value=team)= team
+
+      label(for="statsType") Wybierz typ statystyki:
+      select(name="statsType")
+        each stat in statsTypes
+          option(value=stat)= stat
+
+      button(type="submit") Porównaj
+
+    // Formularz POST
+    h2 Porównanie drużyn (POST)
+    form(action="/teams/compare/post" method="post")
+      label(for="team1") Wybierz pierwszą drużynę:
+      select(name="team1")
+        each team in teams
+          option(value=team)= team
+
+      label(for="team2") Wybierz drugą drużynę:
+      select(name="team2")
+        each team in teams
+          option(value=team)= team
+
+      label(for="statsType") Wybierz typ statystyki:
+      select(name="statsType")
+        each stat in statsTypes
+          option(value=stat)= stat
+
+      button(type="submit") Porównaj
+
+    // Wyświetlanie wyników porównania
+    if comparisonResults && comparisonResults.length > 0
+      h3 Wyniki porównania
+      table(border="1")
+        thead
+          tr
+            th Drużyna
+            th Wybrana statystyka
+        tbody
+          each result in comparisonResults
+            tr
+              td= result.team
+              td= result.stat  
+              td= result.value
+    else
+      p Brak wyników do wyświetlenia.

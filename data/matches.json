@@ -1,0 +1,273 @@
+[
+    {
+        "round": "1. kolejka",
+        "date": "19-22 lipca 2024",
+        "games": [
+            { "match": "Cracovia 1-1 Piast Gliwice", "date": "21 lipca, 14:45", "attendance": 10698, "scorers": ["Mick van Buren 89", "Jorge Félix 18"] },
+            { "match": "GKS Katowice 1-2 Radomiak Radom", "date": "20 lipca, 14:45", "attendance": 6720, "scorers": ["Mateusz Marzec 83", "Leonardo Rocha 24", "Leonardo Rocha 37"] },
+            { "match": "Jagiellonia Białystok 2-0 Puszcza Niepołomice", "date": "19 lipca, 18:00", "attendance": 17157, "scorers": ["Nené 78", "Lamine Diaby-Fadiga 90"] },
+            { "match": "Lech Poznań 2-0 Górnik Zabrze", "date": "21 lipca, 17:30", "attendance": 19620, "scorers": ["Mikael Ishak 32 (k)", "Dino Hotić 90"] },
+            { "match": "Legia Warszawa 2-0 Zagłębie Lubin", "date": "20 lipca, 20:15", "attendance": 25542, "scorers": ["Rafał Augustyniak 86", "Luquinhas 90"] },
+            { "match": "Motor Lublin 0-2 Raków Częstochowa", "date": "21 lipca, 20:15", "attendance": 14158, "scorers": ["Ante Crnac 32", "Dawid Drachal 87"] },
+            { "match": "Pogoń Szczecin 3-0 Korona Kielce", "date": "20 lipca, 17:30", "attendance": 18743, "scorers": ["Efthýmis Kouloúris 35", "Efthýmis Kouloúris 47 (k)", "Kacper Łukasiak 84"] },
+            { "match": "Stal Mielec 1-1 Widzew Łódź", "date": "22 lipca, 19:00", "attendance": 6446, "scorers": ["Ilja Szkurin 45", "Jakub Łukowski 73"] },
+            { "match": "Śląsk Wrocław 1-1 Lechia Gdańsk", "date": "19 lipca, 20:30", "attendance": 23646, "scorers": ["Tommaso Guercio 90", "Tomasz Neugebauer 12"] }
+        ]
+    },
+    {
+        "round": "2. kolejka",
+        "date": "27-28 lipca 2024",
+        "games": [
+            { "match": "Korona Kielce 0-1 Legia Warszawa", "date": "28 lipca, 20:15", "attendance": 14289, "scorers": ["Luquinhas 74"] },
+            { "match": "Lechia Gdańsk 0-2 Motor Lublin", "date": "26 lipca, 20:30", "attendance": 14223, "scorers": ["Samuel Mráz 71", "Piotr Ceglarz 74"] },
+            { "match": "Piast Gliwice 2-0 Śląsk Wrocław", "date": "28 lipca, 17:30", "attendance": 5748, "scorers": ["Michael Ameyaw 8", "Arkadiusz Pyrka 45"] },
+            { "match": "Puszcza Niepołomice 2-2 Górnik Zabrze", "date": "26 lipca, 18:00", "attendance": 2620, "scorers": ["Michális Kossídis 52", "Jakub Serafin 60", "Manu Sánchez 11", "Damian Rasak 56"] },
+            { "match": "Radomiak Radom 2-3 Jagiellonia Białystok", "date": "27 lipca, 17:30", "attendance": 8563, "scorers": ["Leonardo Rocha 52 (k)", "Leonardo Rocha 77", "Jarosław Kubicki 34", "Jarosław Kubicki 40", "Miki Villar 88"] },
+            { "match": "Raków Częstochowa 0-1 Cracovia", "date": "29 lipca, 19:00", "attendance": 5481, "scorers": ["Mikkel Maigaard 48"] },
+            { "match": "Stal Mielec 0-1 GKS Katowice", "date": "27 lipca, 14:45", "attendance": 5565, "scorers": ["Arkadiusz Jędrych 31 (k)"] },
+            { "match": "Widzew Łódź 2-1 Lech Poznań", "date": "27 lipca, 20:15", "attendance": 17527, "scorers": ["Jakub Sypek 3", "Fran Álvarez 10", "Mikael Ishak 42"] },
+            { "match": "Zagłębie Lubin 2-2 Pogoń Szczecin", "date": "28 lipca, 14:45", "attendance": 7358, "scorers": ["Tomasz Pieńko 19", "Dawid Kurminowski 28 (k)", "Efthýmis Kouloúris 17", "Patryk Paryzek 83"] }
+        ]
+    },
+    {
+        "round": "3. kolejka",
+        "date": "3-4 sierpnia 2024",
+        "games": [
+            { "match": "Cracovia 1-3 Widzew Łódź", "date": "5 sierpnia, 19:00", "attendance": 11933, "scorers": ["Benjamin Källman 4", "Jakub Łukowski 21", "Fran Álvarez 74", "Imad Rondić 90"] },
+            { "match": "GKS Katowice 0-1 Raków Częstochowa", "date": "3 sierpnia, 14:45", "attendance": 6780, "scorers": ["Jean Carlos Silva 29"] },
+            { "match": "Górnik Zabrze 1-0 Pogoń Szczecin", "date": "2 sierpnia, 20:30", "attendance": 18700, "scorers": ["Luka Zahovič 83"] },
+            { "match": "Jagiellonia Białystok 2-0 Stal Mielec", "date": "3 sierpnia, 17:30", "attendance": 15719, "scorers": ["Afimico Pululu 24", "Jesús Imaz 67"] },
+            { "match": "Lech Poznań 3-1 Lechia Gdańsk", "date": "3 sierpnia, 20:15", "attendance": 20383, "scorers": ["Mikael Ishak 3", "Mikael Ishak 40", "Dino Hotić 35", "Karl Wendt 90"] },
+            { "match": "Legia Warszawa 1-2 Piast Gliwice", "date": "4 sierpnia, 20:15", "attendance": 24633, "scorers": ["Blaž Kramer 45", "Michał Chrapek 20", "Tihomir Kostadinov 85"] },
+            { "match": "Motor Lublin 1-1 Korona Kielce", "date": "4 sierpnia, 14:45", "attendance": 14562, "scorers": ["Piotr Ceglarz 82 (k)", "Adrián Dalmau 43"] },
+            { "match": "Śląsk Wrocław - Radomiak Radom", "date": "14 grudnia, 17:30", "attendance": null, "scorers": [] },
+            { "match": "Zagłębie Lubin 1-0 Puszcza Niepołomice", "date": "2 sierpnia, 18:00", "attendance": 3876, "scorers": ["Igor Orlikowski 53"] }
+        ]
+    },
+    {
+        "round": "4. kolejka",
+        "date": "10-11 sierpnia 2024",
+        "games": [
+            { "match": "Korona Kielce 0-2 Cracovia", "date": "10 sierpnia, 17:30", "attendance": 11931, "scorers": ["Virgil Ghiță 37", "Mick van Buren 59"] },
+            { "match": "Lechia Gdańsk 1-1 Zagłębie Lubin", "date": "11 sierpnia, 14:45", "attendance": 12740, "scorers": ["Tomáš Bobček 48", "Václav Sejk 76"] },
+            { "match": "Motor Lublin 0-2 Jagiellonia Białystok", "date": "25 września, 19:00", "attendance": 10812, "scorers": ["Taras Romanczuk 4", "Kristoffer Hansen 50"] },
+            { "match": "Piast Gliwice 2-2 GKS Katowice", "date": "12 sierpnia, 19:00", "attendance": 7805, "scorers": ["Michael Ameyaw 31", "Michał Chrapek 49", "Adam Zreľák 19", "Adam Zreľák 68"] },
+            { "match": "Pogoń Szczecin 1-0 Stal Mielec", "date": "10 sierpnia, 20:15", "attendance": 17169, "scorers": ["Alexander Gorgon 84"] },
+            { "match": "Puszcza Niepołomice 2-2 Legia Warszawa", "date": "11 sierpnia, 17:30", "attendance": 3495, "scorers": ["Artur Crăciun 17 (k)", "Jakov Blagaić 41", "Ryōya Morishita 14", "Blaž Kramer 22"] },
+            { "match": "Radomiak Radom 1-2 Górnik Zabrze", "date": "9 sierpnia, 18:00", "attendance": 8564, "scorers": ["Leândro 58", "Luka Zahovič 73", "Norbert Wojtuszek 81"] },
+            { "match": "Raków Częstochowa 0-0 Lech Poznań", "date": "9 sierpnia, 20:30", "attendance": 5500, "scorers": [] },
+            { "match": "Widzew Łódź 0-0 Śląsk Wrocław", "date": "11 sierpnia, 20:15", "attendance": 17663, "scorers": [] }
+        ]
+    },
+    {
+        "round": "5. kolejka",
+        "date": "17-18 sierpnia 2024",
+        "games": [
+            { "match": "GKS Katowice 0-0 Motor Lublin", "date": "16 sierpnia, 20:30", "attendance": 6684, "scorers": [] },
+            { "match": "Górnik Zabrze 0-0 Raków Częstochowa", "date": "18 sierpnia, 20:15", "attendance": 17034, "scorers": [] },
+            { "match": "Jagiellonia Białystok 2-4 Cracovia", "date": "17 sierpnia, 14:45", "attendance": 17078, "scorers": ["Lamine Diaby-Fadiga 12", "Jarosław Kubicki 26", "Benjamin Källman 3", "Benjamin Källman 53", "Jakub Jugas 30", "Mateusz Bochnak 90"] },
+            { "match": "Legia Warszawa 4-1 Radomiak Radom", "date": "18 sierpnia, 17:30", "attendance": 24376, "scorers": ["Blaž Kramer 38 (k)", "Bartosz Kapustka 45", "Marc Gual 70 (k)", "Wojciech Urbański 90", "Capita 61"] },
+            { "match": "Pogoń Szczecin 2-0 Widzew Łódź", "date": "17 sierpnia, 20:15", "attendance": 19846, "scorers": ["Wahan Biczachczjan 21", "Kacper Łukasiak 72"] },
+            { "match": "Puszcza Niepołomice 4-1 Lechia Gdańsk", "date": "16 sierpnia, 18:00", "attendance": 1669, "scorers": ["Konrad Stępień 2", "Michális Kossídis 33", "Roman Jakuba 78", "Roman Jakuba 87", "Camilo Mena 89"] },
+            { "match": "Stal Mielec 2-0 Piast Gliwice", "date": "19 sierpnia, 19:00", "attendance": 4308, "scorers": ["Ilja Szkurin 79", "Ravve Assayag 84"] },
+            { "match": "Śląsk Wrocław 1-1 Korona Kielce", "date": "18 sierpnia, 14:45", "attendance": 14081, "scorers": ["Petr Schwarz 90", "Adrián Dalmau 87"] },
+            { "match": "Zagłębie Lubin 0-1 Lech Poznań", "date": "17 sierpnia, 17:30", "attendance": 13331, "scorers": ["Afonso Sousa 19"] }
+        ]
+    },
+    {
+        "round": "6. kolejka",
+        "date": "24-25 sierpnia 2024",
+        "games": [
+            { "match": "Cracovia 3-2 Górnik Zabrze", "date": "24 sierpnia, 17:30", "attendance": 10106, "scorers": ["Filip Rózga 26", "Ajdin Hasić 73", "Manu Sánchez 78 (s)", "Damian Rasak 20", "Taofeek Ismaheel 33"] },
+            { "match": "GKS Katowice 3-1 Jagiellonia Białystok", "date": "25 sierpnia, 14:45", "attendance": 6690, "scorers": ["Adrian Błąd 2", "Mateusz Kowalczyk 73", "Oskar Repka 90", "Afimico Pululu 18"] },
+            { "match": "Korona Kielce 2-1 Stal Mielec", "date": "26 sierpnia, 19:00", "attendance": 11057, "scorers": ["Pedro Nuno 49 (k)", "Dawid Błanik 90", "Maciej Domański 86"] },
+            { "match": "Lech Poznań 2-0 Pogoń Szczecin", "date": "25 sierpnia, 17:30", "attendance": 29156, "scorers": ["Afonso Sousa 54", "Ali Gholizadeh 77"] },
+            { "match": "Lechia Gdańsk 1-2 Raków Częstochowa", "date": "23 sierpnia, 20:30", "attendance": 11976, "scorers": ["Rifet Kapić 59", "Patryk Makuch 87", "Jonatan Braut Brunes 90"] },
+            { "match": "Motor Lublin 0-0 Puszcza Niepołomice", "date": "24 sierpnia, 14:45", "attendance": 10993, "scorers": [] },
+            { "match": "Piast Gliwice 1-0 Zagłębie Lubin", "date": "24 sierpnia, 20:15", "attendance": 4516, "scorers": ["Damian Kądzior 45"] },
+            { "match": "Śląsk Wrocław 1-1 Legia Warszawa", "date": "25 sierpnia, 20:15", "attendance": 36208, "scorers": ["Tommaso Guercio 66", "Bartosz Kapustka 53"] },
+            { "match": "Widzew Łódź 3-2 Radomiak Radom", "date": "23 sierpnia, 18:00", "attendance": 16467, "scorers": ["Fran Álvarez 18", "Imad Rondić 42 (k)", "Mateusz Żyro 75", "Leonardo Rocha 45", "Zié Ouattara 77"] }
+        ]
+    },
+    {
+        "round": "7. kolejka",
+        "date": "31 sierpnia - 1 września 2024",
+        "games": [
+            { "match": "Górnik Zabrze 2-3 Lechia Gdańsk", "date": "1 września, 12:15", "attendance": 21148, "scorers": ["Paweł Olkowski 53", "Filipe Nascimento 82", "Anton Carenko 24", "Elias Olsson 28", "Bohdan Wjunnyk 68"] },
+            { "match": "Jagiellonia Białystok 1-0 Widzew Łódź", "date": "1 września, 20:15", "attendance": 13076, "scorers": ["Afimico Pululu 2"] },
+            { "match": "Legia Warszawa 5-2 Motor Lublin", "date": "1 września, 14:45", "attendance": 27142, "scorers": ["Bartosz Kapustka 30", "Bartosz Kapustka 69", "Paweł Wszołek 36 (k)", "Migouel Alfarela 48", "Jean-Pierre Nsame 90", "Sebastian Rudol 9", "Mbaye N'Diaye 89"] },
+            { "match": "Pogoń Szczecin 5-3 Śląsk Wrocław", "date": "1 września, 17:30", "attendance": 19794, "scorers": ["Fredrik Ulvestad 9", "Kamil Grosicki 21", "Efthýmis Kouloúris 41", "Efthýmis Kouloúris 89", "Alexander Gorgon 66", "Aleks Petkow 32", "Sebastian Musiolik 37", "Simeon Petrow 81"] },
+            { "match": "Puszcza Niepołomice 0-0 Korona Kielce", "date": "31 sierpnia, 14:45", "attendance": 2411, "scorers": [] },
+            { "match": "Radomiak Radom 2-1 Cracovia", "date": "31 sierpnia, 20:15", "attendance": 7799, "scorers": ["Leonardo Rocha 5", "Zié Ouattara 59", "Davíð Kristján Ólafsson 62"] },
+            { "match": "Raków Częstochowa 0-1 Piast Gliwice", "date": "30 sierpnia, 18:00", "attendance": 5454, "scorers": ["Michael Ameyaw 90"] },
+            { "match": "Stal Mielec 0-2 Lech Poznań", "date": "30 sierpnia, 20:30", "attendance": 6477, "scorers": ["Dino Hotić 32", "Mikael Ishak 37"] },
+            { "match": "Zagłębie Lubin 1-0 GKS Katowice", "date": "31 sierpnia, 17:30", "attendance": 5753, "scorers": ["Hubert Adamczyk 87"] }
+        ]
+    },
+    {
+        "round": "8. kolejka",
+        "date": "14-15 września 2024",
+        "games": [
+            { "match": "Cracovia 2-1 Pogoń Szczecin", "date": "14 września, 17:30", "scorers": ["Mikkel Maigaard 20", "Virgil Ghiță 90", "Léo Borges 72"] },
+            { "match": "GKS Katowice 2-2 Widzew Łódź", "date": "13 września, 20:30", "attendance": 6756, "scorers": ["Oskar Repka 38", "Marcin Wasielewski 42", "Imad Rondić 13", "Jakub Łukowski 90"] },
+            { "match": "Korona Kielce 2-0 Zagłębie Lubin", "date": "15 września, 14:45", "attendance": 10642, "scorers": ["Pau Resta 8", "Adrián Dalmau 34"] },
+            { "match": "Lech Poznań 5-0 Jagiellonia Białystok", "date": "14 września, 20:15", "attendance": 32365, "scorers": ["Afonso Sousa 25", "Dino Hotić 41", "Filip Szymczak 81 (k)", "Jetmir Haliti 87 (s)", "Filip Jagiełło 90"] },
+            { "match": "Lechia Gdańsk 1-0 Radomiak Radom", "date": "14 września, 14:45", "attendance": 9642, "scorers": ["Camilo Mena 58 (k)"] },
+            { "match": "Legia Warszawa 0-1 Raków Częstochowa", "date": "15 września, 17:30", "attendance": 26102, "scorers": ["Jean Carlos Silva 41"] },
+            { "match": "Motor Lublin 1-0 Górnik Zabrze", "date": "13 września, 18:00", "attendance": 12497, "scorers": ["Christopher Simon 49"] },
+            { "match": "Piast Gliwice 1-1 Puszcza Niepołomice", "date": "15 września, 12:15", "attendance": 5779, "scorers": ["Michał Chrapek 72 (k)", "Piotr Mroziński 66"] },
+            { "match": "Śląsk Wrocław 2-1 Stal Mielec", "date": "23 października, 18:30", "attendance": 13825, "scorers": ["Sebastian Musiolik 16", "Sebastian Musiolik 44", "Łukasz Wolsztyński 69"] }
+        ]
+    },
+    {
+        "round": "9. kolejka",
+        "date": "21-22 września 2024",
+        "games": [
+            { "match": "Górnik Zabrze 3-0 GKS Katowice", "date": "21 września, 20:15", "attendance": 22371, "scorers": ["Lukas Podolski 4", "Lukas Podolski 64", "Josema 48"] },
+            { "match": "Jagiellonia Białystok 3-2 Lechia Gdańsk", "date": "21 września, 14:45", "attendance": 15101, "scorers": ["Tomás Silva 13", "Jesús Imaz 72", "Mateusz Skrzypczak 76 (k)", "Bohdan Wjunnyk 16", "Maksym Chłań 59"] },
+            { "match": "Lech Poznań 1-0 Śląsk Wrocław", "date": "22 września, 17:30", "attendance": 34285, "scorers": ["Filip Szymczak 68"] },
+            { "match": "Pogoń Szczecin 1-0 Legia Warszawa", "date": "20 września, 20:30", "attendance": 20415, "scorers": ["Alexander Gorgon 67"] },
+            { "match": "Puszcza Niepołomice 1-2 Cracovia", "date": "21 września, 12:15", "attendance": 4095, "scorers": ["Michális Kossídis 6", "Virgil Ghiță 15", "Otar Kakabadze 67"] },
+            { "match": "Radomiak Radom 4-0 Korona Kielce", "date": "20 września, 18:00", "attendance": 8555, "scorers": ["Leonardo Rocha 7", "Leonardo Rocha 46", "Leonardo Rocha 79", "João Peglow 12"] },
+            { "match": "Raków Częstochowa 5-1 Zagłębie Lubin", "date": "22 września, 14:45", "attendance": 5324, "scorers": ["Władysław Koczerhin 10", "Jonatan Braut Brunes 53", "Gustav Berggren 81", "Gustav Berggren 89", "Erick Otieno 86", "Marek Mróz 33"] },
+            { "match": "Stal Mielec 1-0 Motor Lublin", "date": "22 września, 12:15", "attendance": 5210, "scorers": ["Serhij Krykun 50"] },
+            { "match": "Widzew Łódź 1-0 Piast Gliwice", "date": "21 września, 17:30", "attendance": 16922, "scorers": ["Imad Rondić 12"] }
+        ]
+    },
+    {
+        "round": "10. kolejka",
+        "date": "28-29 września 2024",
+        "games": [
+            { "match": "Cracovia 1-1 Stal Mielec", "date": "30 września, 19:00", "attendance": 8873, "scorers": ["Benjamin Källman 86 (k)", "Matthew Guillaumier 30"] },
+            { "match": "GKS Katowice 3-1 Pogoń Szczecin", "date": "27 września, 18:00", "attendance": 6759, "scorers": ["Arkadiusz Jędrych 33", "Sebastian Bergier 90", "Mateusz Marzec 90", "Alexander Gorgon 90"] },
+            { "match": "Korona Kielce 2-3 Lech Poznań", "date": "29 września, 14:45", "attendance": 12923, "scorers": ["Pedro Nuno 27", "Pedro Nuno 57 (k)", "Patrik Wålemark 14", "Patrik Wålemark 61", "Patrik Wålemark 63"] },
+            { "match": "Lechia Gdańsk 1-1 Widzew Łódź", "date": "27 września, 20:30", "attendance": 9937, "scorers": ["Rifet Kapić 44 (k)", "Imad Rondić 74 (k)"] },
+            { "match": "Legia Warszawa 1-1 Górnik Zabrze", "date": "28 września, 20:15", "attendance": 24438, "scorers": ["Radovan Pankov 35", "Kamil Lukoszek 10 (k)"] },
+            { "match": "Motor Lublin 2-1 Śląsk Wrocław", "date": "28 września, 17:30", "attendance": 14436, "scorers": ["Christopher Simon 83", "Marek Bartoš 90", "Jakub Świerczok 44"] },
+            { "match": "Piast Gliwice 0-1 Jagiellonia Białystok", "date": "29 września, 17:30", "attendance": 5128, "scorers": ["Kristoffer Hansen 32"] },
+            { "match": "Raków Częstochowa 2-0 Puszcza Niepołomice", "date": "28 września, 14:45", "attendance": 5211, "scorers": ["Jean Carlos Silva 32", "Ivi López 38"] },
+            { "match": "Zagłębie Lubin 1-0 Radomiak Radom", "date": "29 września, 12:15", "attendance": 4042, "scorers": ["Tomasz Pieńko 90"] }
+        ]
+    },
+    {
+        "round": "11. kolejka",
+        "date": "5-6 października 2024",
+        "games": [
+            { "match": "Górnik Zabrze 0-1 Zagłębie Lubin", "date": "5 października, 17:30", "attendance": 12626, "scorers": ["Tomasz Pieńko 32"] },
+            { "match": "Jagiellonia Białystok 1-1 Legia Warszawa", "date": "6 października, 20:15", "attendance": 20029, "scorers": ["Jesús Imaz 35", "Marc Gual 67"] },
+            { "match": "Lech Poznań 1-2 Motor Lublin", "date": "5 października, 20:15", "attendance": 24368, "scorers": ["Mikael Ishak 24", "Samuel Mráz 25", "Samuel Mráz 54"] },
+            { "match": "Pogoń Szczecin 1-0 Piast Gliwice", "date": "6 października, 17:30", "attendance": 19148, "scorers": ["Efthýmis Kouloúris 90"] },
+            { "match": "Puszcza Niepołomice 0-6 GKS Katowice", "date": "4 października, 18:00", "attendance": 1609, "scorers": ["Mateusz Kowalczyk 31", "Sebastian Bergier 41", "Oskar Repka 57", "Arkadiusz Jędrych 73 (k)", "Bartosz Nowak 77 (k)", "Jakub Antczak 86"] },
+            { "match": "Radomiak Radom 0-2 Raków Częstochowa", "date": "5 października, 14:45", "attendance": 8545, "scorers": ["Ivi López 33", "Władysław Koczerhin 90"] },
+            { "match": "Stal Mielec 2-1 Lechia Gdańsk", "date": "5 października, 12:15", "attendance": 3932, "scorers": ["Piotr Wlazło 58", "Łukasz Wolsztyński 90", "Dominik Piła 38"] },
+            { "match": "Śląsk Wrocław 2-4 Cracovia", "date": "6 października, 14:45", "attendance": 14482, "scorers": ["Simeon Petrow 2", "Tommaso Guercio 8", "Benjamin Källman 21 (k)", "Jakub Jugas 47", "Mick van Buren 68", "Ajdin Hasić 76 (k)"] },
+            { "match": "Widzew Łódź 0-1 Korona Kielce", "date": "4 października, 20:30", "attendance": 16692, "scorers": ["Shuma Nagamatsu 80"] }
+        ]
+    },
+    {
+        "round": "12. kolejka",
+        "date": "19-20 października 2024",
+        "games": [
+            { "match": "Cracovia 0-2 Lech Poznań", "date": "19 października, 20:15", "attendance": 13449, "scorers": ["Mikael Ishak 53", "Patrik Wålemark 57"] },
+            { "match": "GKS Katowice 0-0 Śląsk Wrocław", "date": "20 października, 12:15", "attendance": 6750, "scorers": [] },
+            { "match": "Górnik Zabrze 3-1 Stal Mielec", "date": "20 października, 14:45", "attendance": 14130, "scorers": ["Luka Zahovič 32", "Damian Rasak 61", "Patrik Hellebrand 90", "Piotr Wlazło 39"] },
+            { "match": "Korona Kielce 0-2 Piast Gliwice", "date": "18 października, 18:00", "attendance": 8735, "scorers": ["Jorge Félix 16 (k)", "Maciej Rosołek 49"] },
+            { "match": "Lechia Gdańsk 0-2 Legia Warszawa", "date": "18 października, 20:30", "attendance": 25000, "scorers": ["Ryōya Morishita 58", "Kacper Chodyna 63"] },
+            { "match": "Motor Lublin 3-4 Widzew Łódź", "date": "19 października, 14:45", "attendance": 13357, "scorers": ["Piotr Ceglarz 1", "Sebastian Rudol 14", "Kacper Wełniak 86", "Samuel Mráz 22 (s)", "Imad Rondić 25", "Imad Rondić 42", "Fran Álvarez 56"] },
+            { "match": "Radomiak Radom 2-0 Puszcza Niepołomice", "date": "21 października, 19:00", "attendance": 6378, "scorers": ["Leonardo Rocha 51 (k)", "Jan Grzesik 66"] },
+            { "match": "Raków Częstochowa 1-0 Pogoń Szczecin", "date": "20 października, 17:30", "attendance": 5443, "scorers": ["Matej Rodin 90"] },
+            { "match": "Zagłębie Lubin 1-3 Jagiellonia Białystok", "date": "19 października, 17:30", "attendance": 6283, "scorers": ["Aleks Ławniczak 75", "Jesús Imaz 20", "Jesús Imaz 58", "Kristoffer Hansen 24"] }
+        ]
+    },
+    {
+        "round": "13. kolejka",
+        "date": "26-27 października 2024",
+        "games": [
+            { "match": "Cracovia 6-2 Motor Lublin", "date": "26 października, 14:45", "attendance": 10007, "scorers": ["Kacper Rosa 6 (s)", "Davíð Kristján Ólafsson 44", "Davíð Kristján Ólafsson 72", "Benjamin Källman 77", "Benjamin Källman 79", "Mateusz Bochnak 86", "Paweł Stolarski 2", "Mathieu Scalet 8"] },
+            { "match": "Jagiellonia Białystok 3-1 Korona Kielce", "date": "27 października, 14:45", "attendance": 15089, "scorers": ["Nené 10", "Jesús Imaz 51", "Darko Čurlinov 67", "Adrián Dalmau 49"] },
+            { "match": "Lech Poznań 2-1 Radomiak Radom", "date": "26 października, 20:15", "attendance": 32648, "scorers": ["Joel Pereira 17", "Mikael Ishak 72", "Zié Ouattara 49"] },
+            { "match": "Legia Warszawa 4-1 GKS Katowice", "date": "27 października, 20:15", "attendance": 25188, "scorers": ["Steve Kapuadi 28", "Kacper Chodyna 45", "Arkadiusz Jędrych 60 (s)", "Rafał Augustyniak 65", "Adam Zreľák 25"] },
+            { "match": "Piast Gliwice 3-3 Lechia Gdańsk", "date": "25 października, 18:00", "attendance": 4670, "scorers": ["Jorge Félix 43", "Jorge Félix 66", "Maciej Rosołek 81", "Camilo Mena 4 (k)", "Bohdan Wjunnyk 46", "Louis D'Arrigo 63"] },
+            { "match": "Pogoń Szczecin 2-1 Puszcza Niepołomice", "date": "25 października, 20:30", "attendance": 17454, "scorers": ["Efthýmis Kouloúris 36", "Linus Wahlqvist 83", "Michális Kossídis 71"] },
+            { "match": "Stal Mielec 2-2 Zagłębie Lubin", "date": "27 października, 12:15", "attendance": 3845, "scorers": ["Piotr Wlazło 33 (k)", "Marvin Senger 57", "Mateusz Wdowiak 51", "Mateusz Wdowiak 84"] },
+            { "match": "Śląsk Wrocław 0-0 Raków Częstochowa", "date": "26 października, 17:30", "attendance": 16265, "scorers": [] },
+            { "match": "Widzew Łódź 0-2 Górnik Zabrze", "date": "27 października, 17:30", "attendance": 16231, "scorers": ["Damian Rasak 38", "Luka Zahovič 58 (k)"] }
+        ]
+    },
+    {
+        "round": "14. kolejka",
+        "date": "2-3 listopada 2024",
+        "games": [
+            { "match": "GKS Katowice 1-2 Korona Kielce", "date": "4 listopada, 18:00", "attendance": 7005, "scorers": ["Lukas Klemenz 15", "Pedro Nuno 37 (k)", "Dawid Błanik 88"] },
+            { "match": "Górnik Zabrze 0-2 Jagiellonia Białystok", "date": "3 listopada, 14:45", "attendance": 18079, "scorers": ["Jesús Imaz 65", "Darko Čurlinov 69"] },
+            { "match": "Lechia Gdańsk 1-2 Cracovia", "date": "3 listopada, 17:30", "attendance": 10711, "scorers": ["Bujar Pllana 77", "Benjamin Källman 4 (k)", "Benjamin Källman 44"] },
+            { "match": "Legia Warszawa 2-1 Widzew Łódź", "date": "3 listopada, 20:15", "attendance": 26236, "scorers": ["Bartosz Kapustka 36", "Paweł Wszołek 86", "Sebastian Kerk 41"] },
+            { "match": "Motor Lublin 4-2 Pogoń Szczecin", "date": "2 listopada, 17:30", "attendance": 13719, "scorers": ["Michał Król 8", "Michał Król 38", "Samuel Mráz 28", "Mbaye N'Diaye 75", "Kamil Grosicki 37", "Wahan Biczachczjan 63"] },
+            { "match": "Puszcza Niepołomice 2-0 Lech Poznań", "date": "2 listopada, 20:15", "attendance": 2266, "scorers": ["Dawid Szymonowicz 33", "Michális Kossídis 44"] },
+            { "match": "Radomiak Radom 1-1 Piast Gliwice", "date": "3 listopada, 12:15", "attendance": 6002, "scorers": ["Igor Drapiński 45 (s)", "Jakub Czerwiński 61"] },
+            { "match": "Raków Częstochowa 1-0 Stal Mielec", "date": "2 listopada, 14:45", "attendance": 5287, "scorers": ["Jonatan Braut Brunes 90 (k)"] },
+            { "match": "Zagłębie Lubin 3-0 Śląsk Wrocław", "date": "4 listopada, 20:30", "attendance": 7613, "scorers": ["Mateusz Grzybek 1", "Mateusz Wdowiak 55", "Marcel Reguła 84"] }
+        ]
+    },
+    {
+        "round": "15. kolejka",
+        "date": "9-10 listopada 2024",
+        "games": [
+            { "match": "Cracovia 3-4 GKS Katowice", "date": "9 listopada, 14:45", "attendance": 10679, "scorers": ["Mikkel Maigaard 45", "Mikkel Maigaard 70", "Benjamin Källman 90", "Mateusz Mak 15", "Mateusz Mak 39", "Adrian Błąd 62", "Sebastian Milewski 90"] },
+            { "match": "Jagiellonia Białystok 2-2 Raków Częstochowa", "date": "10 listopada, 14:45", "attendance": 17089, "scorers": ["Jesús Imaz 68", "Afimico Pululu 90 (k)", "Ivi López 4 (k)", "Zoran Arsenić 87"] },
+            { "match": "Korona Kielce 0-0 Lechia Gdańsk", "date": "9 listopada, 12:15", "attendance": 8296, "scorers": [] },
+            { "match": "Lech Poznań 5-2 Legia Warszawa", "date": "10 listopada, 17:30", "attendance": 40838, "scorers": ["Ali Gholizadeh 5", "Antoni Kozubal 39", "Afonso Sousa 50", "Afonso Sousa 69", "Mikael Ishak 59", "Marc Gual 29", "Rafał Augustyniak 45 (k)"] },
+            { "match": "Piast Gliwice 2-3 Motor Lublin", "date": "8 listopada, 18:00", "attendance": 4311, "scorers": ["Miłosz Szczepański 36", "Fabian Piasecki 70", "Samuel Mráz 8", "Samuel Mráz 38", "Samuel Mráz 75"] },
+            { "match": "Pogoń Szczecin 0-1 Radomiak Radom", "date": "8 listopada, 20:30", "attendance": 13803, "scorers": ["Paulo Henrique 37"] },
+            { "match": "Stal Mielec 2-0 Puszcza Niepołomice", "date": "10 listopada, 12:15", "attendance": 3832, "scorers": ["Ilja Szkurin 67", "Ilja Szkurin 74"] },
+            { "match": "Śląsk Wrocław 0-1 Górnik Zabrze", "date": "9 listopada, 20:15", "attendance": 12504, "scorers": ["Aleksander Buksa 34"] },
+            { "match": "Widzew Łódź 2-0 Zagłębie Lubin", "date": "9 listopada, 17:30", "attendance": 16869, "scorers": ["Jakub Sypek 7", "Jakub Sypek 71"] }
+        ]
+    },
+    {
+        "round": "16. kolejka",
+        "date": "23-24 listopada 2024",
+        "games": [
+            { "match": "Górnik Zabrze - Piast Gliwice", "date": "24 listopada, 17:30" },
+            { "match": "Jagiellonia Białystok - Śląsk Wrocław", "date": "22 listopada, 20:30" },
+            { "match": "Lech Poznań - GKS Katowice", "date": "23 listopada, 17:30" },
+            { "match": "Lechia Gdańsk - Pogoń Szczecin", "date": "23 listopada, 14:45" },
+            { "match": "Legia Warszawa - Cracovia", "date": "23 listopada, 20:15" },
+            { "match": "Puszcza Niepołomice - Widzew Łódź", "date": "25 listopada, 19:00" },
+            { "match": "Radomiak Radom - Stal Mielec", "date": "24 listopada, 12:15" },
+            { "match": "Raków Częstochowa - Korona Kielce", "date": "24 listopada, 14:45" },
+            { "match": "Zagłębie Lubin - Motor Lublin", "date": "22 listopada, 18:00" }
+        ]
+    },
+    {
+        "round": "17. kolejka",
+        "date": "30 listopada - 1 grudnia 2024",
+        "games": [
+            { "match": "Cracovia - Zagłębie Lubin", "date": "29 listopada, 18:00" },
+            { "match": "GKS Katowice - Lechia Gdańsk", "date": "30 listopada, 17:30" },
+            { "match": "Korona Kielce - Górnik Zabrze", "date": "1 grudnia, 12:15" },
+            { "match": "Motor Lublin - Radomiak Radom", "date": "2 grudnia, 19:00" },
+            { "match": "Piast Gliwice - Lech Poznań", "date": "29 listopada, 20:30" },
+            { "match": "Pogoń Szczecin - Jagiellonia Białystok", "date": "1 grudnia, 14:45" },
+            { "match": "Stal Mielec - Legia Warszawa", "date": "1 grudnia, 17:30" },
+            { "match": "Śląsk Wrocław - Puszcza Niepołomice", "date": "30 listopada, 14:45" },
+            { "match": "Widzew Łódź - Raków Częstochowa", "date": "30 listopada, 20:15" }
+        ]
+    },
+    {
+        "round": "18. kolejka",
+        "date": "7-8 grudnia 2024",
+        "games": [
+            { "match": "Górnik Zabrze - Lech Poznań", "date": "6 grudnia, 20:30" },
+            { "match": "Korona Kielce - Pogoń Szczecin", "date": "9 grudnia, 19:00" },
+            { "match": "Lechia Gdańsk - Śląsk Wrocław", "date": "7 grudnia, 14:45" },
+            { "match": "Piast Gliwice - Cracovia", "date": "8 grudnia, 12:15" },
+            { "match": "Puszcza Niepołomice - Jagiellonia Białystok", "date": "8 grudnia, 14:45" },
+            { "match": "Radomiak Radom - GKS Katowice", "date": "6 grudnia, 18:00" },
+            { "match": "Raków Częstochowa - Motor Lublin", "date": "7 grudnia, 20:15" },
+            { "match": "Widzew Łódź - Stal Mielec", "date": "7 grudnia, 17:30" },
+            { "match": "Zagłębie Lubin - Legia Warszawa", "date": "8 grudnia, 17:30" }
+        ]
+    }
+    
+]
