@@ -226,3 +226,9 @@
 [2024-12-08T10:07:24.754Z] GET /teams - IP: ::1
 [2024-12-08T10:07:24.772Z] GET /css/teams.css - IP: ::1
 [2024-12-08T10:07:24.772Z] GET /images/logo.png - IP: ::1
+[2024-12-08T11:11:07.278Z] GET / - IP: ::1
+[2024-12-08T11:11:07.428Z] GET /css/styles.css - IP: ::1
+[2024-12-08T11:11:07.430Z] GET /images/logo.png - IP: ::1
+[2024-12-08T11:11:07.431Z] GET /images/3.jpg - IP: ::1
+[2024-12-08T11:11:07.434Z] GET /images/2.jpg - IP: ::1
+[2024-12-08T11:11:07.474Z] GET /favicon.ico - IP: ::1
