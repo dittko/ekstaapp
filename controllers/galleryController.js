@@ -49,3 +49,9 @@ exports.showImageDetails = (req, res) => {
     res.status(404).send('Obrazek nie został znaleziony');
   }
 };
+
+exports.getGalleryText = (req, res) => {
+  const textData = galleryData.map(image => `Nazwa: ${image.name}, Opis: ${image.description}, Kategoria: ${image.category}`).join('\n');
+  res.type('text/plain');
+  res.send(textData);
+};

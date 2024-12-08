@@ -22,12 +22,12 @@ exports.listPlayers = (req, res) => {
         ]
     };
 
-    const statsType = req.query.filter || 'scorers';  // Domyślnie wybór "najlepsi strzelcy"
-    const selectedPlayers = players[statsType];  // Wybiera odpowiednią grupę graczy
+    const statsType = req.query.filter || 'scorers';  
+    const selectedPlayers = players[statsType];  
 
     if (statsType === 'scorers') {
         selectedPlayers.forEach(player => {
-            player.kk = player.goals + player.assists; // Punktacja Kanadyjska = G + A
+            player.kk = player.goals + player.assists;
         });
     }
 

@@ -12,4 +12,7 @@ router.get('/gallery/category/:category', galleryController.filterGalleryByCateg
 
 router.get('/gallery/image/:imageName', galleryController.showImageDetails);
 
+router.get('/gallery/text', galleryController.getGalleryText);
+
+
 module.exports = router;

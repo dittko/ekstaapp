@@ -149,7 +149,6 @@ exports.compareTeamsPost = (req, res) => {
     });
 };
 
-// Lista drużyn i statystyki
 exports.showTeams = (req, res) => {
     const teamsData = Object.entries(teamStats).map(([team, stats]) => ({
         team,
@@ -164,10 +163,3 @@ exports.showTeams = (req, res) => {
     });
 };
 
-exports.playGame = (req, res) => {
-    const { code } = req.params;
-    res.render('teams', {
-        title: `Gra z kodem: ${code}`,
-        message: `Rozpoczęto grę z kodem: ${code}`
-    });
-};
