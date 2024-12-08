@@ -1,17 +1,15 @@
-/* Styl dla całej strony */
 body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #1a237e; /* Ciemnoniebieskie tło */
+    background-color: #1a237e; 
     color: white;
     margin: 0;
     height: 100vh;
 }
 
-/* Pasek nawigacyjny */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -61,9 +59,8 @@ body {
     transform: scale(1.05);
 }
 
-/* Styl tabeli */
 table {
-    width: 80%; /* Szerokość tabeli */
+    width: 80%; 
     border-collapse: collapse;
     margin: 20px auto;
     background-color: #f5f5f5;
@@ -72,7 +69,6 @@ table {
     overflow: hidden;
 }
 
-/* Nagłówki tabeli */
 th, td {
     padding: 12px;
     text-align: center;
@@ -80,13 +76,13 @@ th, td {
 }
 
 th {
-    background-color: #1565c0; /* Niebieski nagłówek */
+    background-color: #1565c0; 
     color: white;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-/* Wiersze */
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
@@ -95,44 +91,37 @@ tr:hover {
     background-color: #ecb605;
 }
 
-/* Styl lidera */
 .leader {
-    background-color: #07f3b8; /* Ciemnozielony */
+    background-color: #07f3b8; 
     color: white;
     font-weight: bold;
 }
 
-/* Styl dla miejsc 2 i 3 */
 .runner-up {
-    background-color: #dce0ee; /* Jasnozielony */
+    background-color: #dce0ee; 
     color: white;
     font-weight: bold;
 }
 
-/* Styl dla spadających drużyn */
 .relegation {
-    background-color: #b71c1c; /* Czerwony */
+    background-color: #b71c1c; 
     color: white;
     font-weight: bold;
 }
 
-/* Styl dla pozostałych drużyn */
 .default {
-    background-color: #e3f2fd; /* Jasnoniebieski */
+    background-color: #e3f2fd; 
     color: #0d47a1;
 }
 
-/* Ogólne style komórek tabeli */
 td {
     font-size: 14px;
 }
 
-/* Wyśrodkowanie tabeli */
 table {
     margin: 20px auto;
 }
 
-/* Nagłówek strony */
 h1 {
     font-size: 32px;
     margin-bottom: 20px;

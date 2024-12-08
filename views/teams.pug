@@ -4,7 +4,6 @@ html
     title= title
     link(rel="stylesheet", href="/css/teams.css")
   body
-    // Pasek nawigacyjny
     header.navbar
       .container
         img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
@@ -18,7 +17,6 @@ html
 
     h1 Ekstraklasa - Porównanie drużyn
 
-    // Formularz GET
     h2 Porównanie drużyn (GET)
     form(action="/teams/compare/get" method="get")
       label(for="team1") Wybierz pierwszą drużynę:
@@ -38,7 +36,6 @@ html
 
       button(type="submit") Porównaj
 
-    // Formularz POST
     h2 Porównanie drużyn (POST)
     form(action="/teams/compare/post" method="post")
       label(for="team1") Wybierz pierwszą drużynę:
@@ -58,7 +55,6 @@ html
 
       button(type="submit") Porównaj
 
-    // Wyświetlanie wyników porównania
     if comparisonResults && comparisonResults.length > 0
       h3 Wyniki porównania
       table(border="1")

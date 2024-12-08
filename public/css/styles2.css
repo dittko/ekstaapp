@@ -1,4 +1,3 @@
-/* Ustawienia ogólne */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -8,10 +7,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden; /* Zapobiega przewijaniu w poziomie */
+  overflow-x: hidden; 
 }
 
-/* Pasek nawigacyjny */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -61,26 +59,24 @@ body {
   transform: scale(1.05);
 }
 
-/* Media queries */
 @media (max-width: 768px) {
   .navbar {
-    padding: 10px 15px; /* Mniejsze paddingi na mniejszych ekranach */
+    padding: 10px 15px; 
   }
 
   .logo {
-    height: 30px; /* Mniejsze logo na mniejszych ekranach */
+    height: 30px; 
   }
 
   .nav-links {
-    gap: 15px; /* Mniejszy odstęp między linkami */
+    gap: 15px; 
   }
 
   .nav-links a {
-    font-size: 0.9rem; /* Mniejsza czcionka na mniejszych ekranach */
+    font-size: 0.9rem; 
   }
 }
 
-/* Nagłówki i tła */
 header {
   background-color: #003366;
   color: white;
@@ -90,10 +86,9 @@ header {
 
 h1 {
   font-size: 2em;
-  margin-top: 80px; /* Dodanie odstępu, aby pasek nawigacyjny nie zasłaniał nagłówka */
+  margin-top: 80px; 
 }
 
-/* Zawartość strony */
 .container {
   margin: 20px;
 }
@@ -156,7 +151,6 @@ p {
   display: block;
 }
 
-/* Sekcja z informacjami o Ekstraklasie */
 section.ekstraklasa-info {
   max-width: 800px;
   padding: 20px;
@@ -174,7 +168,6 @@ p {
   line-height: 1.5em;
 }
 
-/* Styl dla większych ekranów */
 @media (min-width: 1024px) {
   .nav-links a {
     font-size: 1.2em;
@@ -187,7 +180,6 @@ p {
   }
 }
 
-/* Pokaż informacje o Ekstraklasie, gdy użytkownik przewinie stronę */
 .ekstraklasa-info.visible {
   opacity: 1;
 }

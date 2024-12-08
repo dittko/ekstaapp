@@ -4,7 +4,6 @@ html
     title= title
     link(rel='stylesheet', href='/css/gallery.css')   
   body
-    // Pasek nawigacyjny
     header.navbar
       .container
         img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
@@ -25,7 +24,6 @@ html
     a(href='/') Powrót do strony głównej
     a(href='/gallery/json') Zobacz dane w formacie JSON
 
-    // Jeśli jest kategoria
     if category
       h3 Kategoria: #{category}
       a(href='/gallery') Wszystkie obrazy

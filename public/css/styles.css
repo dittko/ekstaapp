@@ -1,4 +1,3 @@
-/* Ustawienia ogólne */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -7,7 +6,6 @@ body {
   color: #333;
 }
 
-/* Pasek nawigacyjny */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -57,11 +55,10 @@ body {
   transform: scale(1.05);
 }
 
-/* Sekcja hero z tłem */
 section.hero {
   position: relative;
   width: 100%;
-  height: 100vh; /* Ustawienie pełnej wysokości widoku */
+  height: 100vh; 
   background-image: url('/images/2.jpg');
   background-size: cover;
   background-position: center;
@@ -69,7 +66,7 @@ section.hero {
   justify-content: center;
   align-items: center;
   color: white;
-  margin-top: 70px; /* Dostosowanie do paska nawigacyjnego */
+  margin-top: 70px; 
 }
 
 .hero-content h1 {
@@ -100,7 +97,6 @@ section.hero {
   background-color: #00ee47;
 }
 
-/* Sekcja z informacjami o Ekstraklasie */
 section#ekstraklasa-info.ekstraklasa-info {
   padding: 100px 20px;
   background-color: #ffffff;
@@ -142,7 +138,6 @@ section#ekstraklasa-info.ekstraklasa-info {
   color: #555;
 }
 
-/* Nowa sekcja z tłem 3.jpg z odwróconym układem */
 section#ekstraklasa-info-2 {
   padding: 100px 20px;
   background-color: #f4f4f4;
@@ -158,7 +153,6 @@ section#ekstraklasa-info-2 {
   gap: 30px;
 }
 
-/* Odwrócenie układu: tekst po lewej, obrazek po prawej */
 .info-left img {
   width: 100%;
   max-width: 350px;
@@ -185,7 +179,6 @@ section#ekstraklasa-info-2 {
   color: #555;
 }
 
-/* Sekcja regulaminu */
 section#regulamin {
   padding: 50px 20px;
   background-color: #ffffff;
@@ -218,7 +211,6 @@ section#regulamin p {
   background-color: #005bb5;
 }
 
-/* Stopka */
 footer {
   background-color: #003366;
   color: white;

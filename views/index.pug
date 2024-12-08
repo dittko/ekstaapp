@@ -4,7 +4,6 @@ html
     title= title
     link(rel='stylesheet', href='/css/styles.css')
   body
-    // Pasek nawigacyjny
     header.navbar
       .container
         img.logo(src='/images/logo.png', alt='Ekstraklasa Logo')
@@ -16,14 +15,12 @@ html
           li: a(href='/matches') Mecze
           li: a(href='/gallery') Galeria
 
-    // Sekcja z tłem
     section.hero
       .hero-content
         h1  Ekstraklasa
         p Najwyższa klasa rozgrywkowa piłki nożnej w Polsce, zrzeszająca najlepsze drużyny rywalizujące o tytuł mistrza Polski.
         a(href='#ekstraklasa-info' class='btn-more') Dowiedz się więcej
 
-    // Sekcja z informacjami o Ekstraklasie
     section#ekstraklasa-info.ekstraklasa-info
       .container
         div.info-left
@@ -32,7 +29,6 @@ html
           h2 Czym jest Ekstraklasa?
           p Ekstraklasa to liga, w której występują najlepsze drużyny piłkarskie w Polsce, rywalizujące o tytuł mistrza kraju. Zawody odbywają się w systemie ligowym, a mecze przyciągają miliony fanów piłki nożnej.
 
-    // Nowa sekcja z tłem 3.jpg (z odwróconym układem)
     section#ekstraklasa-info-2
       .container
         div.info-right
@@ -41,14 +37,12 @@ html
         div.info-left
           img(src='/images/3.jpg', alt='Ekstraklasa w akcji')
 
-    // Sekcja z regulaminem
     section#regulamin
       .container
         h2 Regulamin Ekstraklasy
         p Regulamin Ekstraklasy jest dostępny do pobrania w formacie PDF.
         a(href='/download-regulamin' class='btn-download') Pobierz Regulamin PDF
 
-    // Stopka
     footer
       .container
         p Twórca strony: Wiktor Majchrzak

@@ -1,36 +1,31 @@
 const express = require('express');
 const path = require('path');
-const logger = require('./config/logger'); // Import middleware
+const logger = require('./config/logger');
 
 const app = express();
 
-// Ścieżki do tras
 const indexRoutes = require('./routes/index');
 const matchesRoutes = require('./routes/matches');
 const playersRoutes = require('./routes/players');
 const standingsRoutes = require('./routes/standings');
 const teamsRoutes = require('./routes/teams');
-const galleryRoutes = require('./routes/gallery'); // Nowa trasa galerii
+const galleryRoutes = require('./routes/gallery'); 
 
 app.use(express.urlencoded({ extended: true }));
 
-// Middleware globalny
-app.use(logger); // Aktywuj middleware rejestrujący żądania
+app.use(logger); 
 
-// Middleware do obsługi plików statycznych
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Ustawienia widoków
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
-// Obsługa tras
 app.use('/', indexRoutes);
 app.use('/matches', matchesRoutes);
 app.use('/players', playersRoutes);
 app.use('/standings', standingsRoutes);
 app.use('/teams', teamsRoutes);
-app.use('/', galleryRoutes); // Dodajemy trasę galerii
+app.use('/', galleryRoutes); 
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

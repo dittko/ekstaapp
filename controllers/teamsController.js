@@ -125,7 +125,7 @@ exports.compareTeamsGet = (req, res) => {
         title: `Porównanie drużyn (GET)`,
         teams: Object.keys(teamStats),
         statsTypes,
-        comparisonResults: comparisonResults || []  // Upewnij się, że comparisonResults zawsze jest tablicą
+        comparisonResults: comparisonResults || [] 
     });
 };
 
@@ -145,7 +145,7 @@ exports.compareTeamsPost = (req, res) => {
         title: `Porównanie drużyn (POST)`,
         teams: Object.keys(teamStats),
         statsTypes,
-        comparisonResults: comparisonResults || []  // Upewnij się, że comparisonResults zawsze jest tablicą
+        comparisonResults: comparisonResults || []  
     });
 };
 
@@ -158,9 +158,9 @@ exports.showTeams = (req, res) => {
 
     res.render('teams', {
         title: 'Lista drużyn i statystyki',
-        teams: Object.keys(teamStats), // Lista drużyn
-        teamsData, // Szczegółowe dane dla każdej drużyny
-        statsTypes // Typy statystyk
+        teams: Object.keys(teamStats), 
+        teamsData, 
+        statsTypes 
     });
 };
 

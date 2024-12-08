@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const teamsController = require('../controllers/teamsController'); // Import kontrolera
+const teamsController = require('../controllers/teamsController'); 
 
-router.get('/compare/get', teamsController.compareTeamsGet); // Używa funkcji GET
-router.post('/compare/post', teamsController.compareTeamsPost); // Używa funkcji POST
+router.get('/compare/get', teamsController.compareTeamsGet); 
+router.post('/compare/post', teamsController.compareTeamsPost); 
 router.get('/', teamsController.showTeams);
 router.get('/game/:code', teamsController.playGame);
 
